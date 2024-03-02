@@ -1,0 +1,29 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "Regular show",
+    "description": "This is a funny cartoon",
+    "duration": 12
+}
+
+###
+
+GET http://localhost:3333/videos
+
+
+###
+
+PUT http://localhost:3333/videos/b1f592c7-c2fa-4ac9-b8b3-21b2dc63fd24
+Content-Type: application/json
+
+{
+    "title": "Trem bala da programming",
+    "description": "This is a funny cartoon",
+    "duration": 12
+}
+
+
+###
+
+DELETE http://localhost:3333/videos/7addf2d6-44cb-41db-8465-7fdf9d7b4e0e
